@@ -6,19 +6,18 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Arnas Kromelis",
+		template: "%s | kromelis.lt",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer and entrepreneur.",
 	openGraph: {
-		title: "chronark.com",
-		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		title: "kromelis.lt",
+		description: "Software engineer and entrepreneur.",
+		url: "https://kromelis.lt",
+		siteName: "kromelis.lt",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://kromelis.lt/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Arnas Kromelis",
 		card: "summary_large_image",
 	},
 	icons: {
